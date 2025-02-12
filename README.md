@@ -21,3 +21,5 @@ This project is a **responsive landing page** for an online supermarket showcasi
 
 ## Folder Structure
 ![image](https://github.com/user-attachments/assets/ae12cc6b-eb41-455c-b496-c113476a21db)
+###  visit the web page 
+https://idrissbado.github.io/-ResponsiveStoreLandingPageDesign/

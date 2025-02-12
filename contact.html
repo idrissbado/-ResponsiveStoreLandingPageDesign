@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Ivorian Supermarket</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+  <!-- Header Section -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="logo text-2xl font-bold text-green-700">Ivorian Supermarket</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-green-600">Home</a></li>
+          <li><a href="index.html#products" class="hover:text-green-600">Products</a></li>
+          <li><a href="about.html" class="hover:text-green-600">About</a></li>
+          <li><a href="contact.html" class="hover:text-green-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section container mx-auto py-16">
+    <h2 class="text-3xl font-bold text-center text-green-800">Contact Us</h2>
+    <div class="mt-10 max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <form class="space-y-6">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" required>
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" required>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+          <textarea id="message" name="message" rows="5" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500" required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="w-full bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-green-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Ivorian Supermarket. All rights reserved.</p>
+      <ul class="flex justify-center space-x-6 mt-4">
+        <li><a href="#privacy" class="hover:text-green-300">Privacy Policy</a></li>
+        <li><a href="#terms" class="hover:text-green-300">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
